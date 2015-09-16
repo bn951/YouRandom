@@ -16,6 +16,7 @@
 			<div class="row">
 				<div class="jumbotron">
 					<h1>YouRandom</h1>
+					<button class="slideout-menu-toggle">Menu</button>
 				</div>
 			</div>
 			<div class="row">
@@ -28,7 +29,7 @@
 							<iframe  src="" frameborder="0" allowfullscreen></iframe>
 						</div>
 						<div class="panel-footer">
-							<button class="btn btn-primary">Next</button>
+							<button class="btn btn-primary" id="next">Next</button>
 						</div>
 					</div>
 				</div>
@@ -43,6 +44,21 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="slideout-menu">
+			<h3>Categories <a href="#" class="slideout-menu-toggle">X</a></h3>
+			<ul>
+				<li><a>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+					<i class="fa fa-angle-right"></i>
+				</a></li>
+			</ul>
 		</div>
 		<script src="lib/require.js" data-main="app"></script>
 	</body>

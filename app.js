@@ -14,7 +14,7 @@ define(['jquery'], function($) {
 		require(['lib/modules/api']);
 	}
 
-	$('button').on('click', function() {
+	$('#next').on('click', function() {
 		//window.location.reload();
 		reload();
 	});
