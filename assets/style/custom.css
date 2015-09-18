@@ -22,10 +22,20 @@ iframe {
 	height: 350px;
 }
 
+/* navbar */
+.logo {
+	color: red;
+}
+
+#menu {
+	position: relative;
+	right: -950px;
+}
+
 /* Menu */
 .slideout-menu {
 	position: fixed;
-	top: 0;
+	top: 50px;
 	right: -250px;
 	width: 250px;
 	height: 100%;
